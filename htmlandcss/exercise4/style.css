@@ -1,6 +1,50 @@
-table {
+/* table {
     border:1px solid black;
 }
 
 th {border:1px solid black;}
-td {border:1px solid black;}
+td {border:1px solid black;} */
+
+body {
+    background-color: #1a1a1a;
+}
+
+h1 {
+    color: rgb(16, 233, 16);
+    text-align: center;
+}
+
+p {
+    color: orange;
+    text-align: center;
+}
+
+table {
+    border: 5px solid rgb(97, 233, 17); 
+    border-radius: 10px;
+}
+
+th {
+    color: rgb(16, 233, 16);
+}
+
+.text {
+    color: orange;
+}
+
+td {
+    color : white
+}
+
+tr:nth-child(odd) {
+    background-color: #1a1a1a; 
+}
+
+
+tr:nth-child(even) {
+    background-color: #2d2d2d;
+}
+
+div {
+  padding: 50% 50%;
+}

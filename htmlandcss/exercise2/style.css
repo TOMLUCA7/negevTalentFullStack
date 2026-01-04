@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: rgb(209, 77, 6);
+}
+
+h2 {
+    background-color: rgb(71, 151, 212);
+    color: rgb(3, 3, 79);
+    padding: 10px 20px;
+}
+
+ol , ul{
+    background-color: rgb(121, 206, 245);
+}

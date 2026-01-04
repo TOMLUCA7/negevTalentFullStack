@@ -1,0 +1,20 @@
+
+.p1 {
+    font-family: sans-serif;
+    color: #fce4c4;
+    font-size: 110px;
+}
+
+.p2 {
+    font-family: serif;
+    font-weight: bold;
+    color: #d81b60;
+    font-size: 90px;
+}
+
+.p3 {
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #5c6bc0;
+    font-size: 60px;
+}

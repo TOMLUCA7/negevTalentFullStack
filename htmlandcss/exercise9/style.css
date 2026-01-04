@@ -1,0 +1,13 @@
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.tr_data {
+    border:1px solid black;
+    background-color: rgb(114, 231, 114);
+}
+
+tr {
+    background-color: grey;
+}

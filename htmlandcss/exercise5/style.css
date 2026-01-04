@@ -1,0 +1,49 @@
+h1 {
+    color: rgb(85, 193, 235);
+    text-align: center;
+}
+
+body {
+    background-color: rgba(205, 205, 205, 0.974);
+}
+
+legend {
+    color: rgb(85, 193, 235);
+}
+
+fieldset {
+    background-color: white;
+    border: 3px solid rgb(82, 208, 254); 
+    width: 50%;           /* קובע את רוחב המסגרת */
+    margin-left: auto;    /* דוחף מצד שמאל */
+    margin-right: auto;   /* דוחף מצד ימין */
+    padding: 20px;
+    border: 2px solid #0d66b3;
+    border-radius: 10px;
+}
+
+label {
+    color: #333; /* אפור כהה מאוד (אם הרקע לבן) */
+    font-size: 14px; /* הגדלתי מעט ל-14px כדי שיהיה קריא יותר */
+    font-weight: bold; /
+}
+
+.buttonGreen {
+    background-color: green;
+    color: white;    
+}
+
+.buttonRed {
+    background-color: red;
+    color: white;
+    
+}
+
+.buttons-wrapper {
+    text-align: center;
+    margin-top: 20px; /* רווח מה-fieldset שמעל */
+    display: flex;
+    justify-content: center; /* ממרכז אופקית */
+    gap: 15px;               /* יוצר רווח של 15 פיקסלים בין הכפתורים */
+    margin-top: 20px;
+}

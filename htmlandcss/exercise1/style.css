@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(9, 158, 188);
+}
+
+.hr {
+    border: none;
+    border-top: 3px solid #2be0ed;
+}

@@ -1,0 +1,31 @@
+.hr {
+    /* border: none; */
+    color: rgb(229, 100, 13);
+    border-top: solid
+}
+
+h1 {
+    text-align: center;
+    color: rgb(184, 175, 45);
+}
+
+h2 {
+   color: rgb(229, 100, 13);
+}
+
+h3 {
+    color: blue;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(7, 158, 92);
+}
+
+li {
+    color: orange;
+}
