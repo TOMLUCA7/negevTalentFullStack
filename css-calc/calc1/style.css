@@ -1,0 +1,19 @@
+.container {
+    background-color: blueviolet;
+    position: relative;
+}
+
+.left-section {
+  width: 50%;
+  background-color: blue;
+  padding: 15px;
+  position: absolute;
+}
+
+.right-section {
+  width: 20px;
+  background-color: red;
+  padding: 15px;
+  position: absolute;
+  right: calc(50% - 40px);
+}
