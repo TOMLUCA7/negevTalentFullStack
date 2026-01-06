@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    margin: 50px;
+}
+
+.card {
+    width: 600px;
+    background-color: white;
+    border: 5px solid #f28d8d;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #f28d8d;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/* הטקסט */
+.text-area p {
+    color: #555;
+    margin-bottom: 50px;
+}
+
+/* אזור השורות בתחתית */
+.footer-bars {
+    width: 100%;
+    border-top: 5px solid #f28d8d; 
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-long {
+    width: 80px;
+    height: 20px;
+    background-color: #f28d8d;
+}
+
+.bars-group {
+    display: flex;
+    gap: 10px;
+}
+
+.bar-short {
+    width: 60px;
+    height: 15px;
+    background-color: #f28d8d;
+}
