@@ -1,0 +1,84 @@
+.container {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(117, 49, 235);
+    border-radius: 5px;
+    position: relative;
+}
+
+.text-top {
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 5px;
+}
+
+.text-bottom {
+    position: absolute;
+    font-size: 20px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.col {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);
+    bottom: 10px;
+    left: 10px;
+}
+
+.col1 {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 10px;
+}
+
+.col2 {
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 50px;
+}
+
+.col3 {
+    position: absolute;
+    height: 140px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 90px;
+}
+
+.col4 {
+    position: absolute;
+    height: 130px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 130px;
+}
+
+.col5 {
+    position: absolute;
+    height: 120px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 170px;
+}
+
+.col6 {
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    background-color: rgb(221, 213, 213);;
+    bottom: 10px;
+    left: 210px;
+}

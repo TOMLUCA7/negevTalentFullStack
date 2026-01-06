@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    color: white;
+    display: inline-block;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+
+.top-left {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.bottom-left {
+    position: absolute;
+    font-size: 20px;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.top-right {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+.bottom-right {
+    position: absolute;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    
+}
