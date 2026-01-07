@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #6f5499; 
+  color: white;
+  /* margin: 10px; */
+  padding: 10px;
+}
+
+aside,
+.content {
+  border: 1px solid #ede5e5;
+  padding: 18px;
+}
+
+footer p {
+  background-color: #343a40; /* הצבע הכהה מהתמונה */
+  color: white;
+  height: 60px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+    
+  text-align: center;
+}
+
+/* It is fine that a flex item will also be a flex container */
+main {
+  flex: 1;
+  display: flex;
+  /* padding: 20px; */
+  background-color: white;
+}
+
+/* עיצוב ה-Navigation (ה-aside הראשון) */
+aside:first-of-type {
+    width: 180px; /* רוחב העמודה השמאלית */
+    flex-shrink: 0; /* מונע מהתפריט להתכווץ */
+    background-color: rgb(233, 233, 233);
+}
+
+aside h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+/* סידור הרשימה - כאן הקסם קורה */
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside li {
+    margin-bottom: 8px; 
+}
+
+aside li a {
+    text-decoration: none; 
+    color: #666;           
+    font-size: 16px;
+    display: block;        
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+
+.leftbar {
+  background-color: #f8f9fa; /* אפור בהיר מאוד לרקע הכללי */
+  width: 250px;              /* רוחב העמודה כולה */
+}
+
+.leftsidebar {
+    background-color: #FFFFFF; 
+    width: auto;               
+    padding: 15px;            
+    margin-bottom: 20px;       
+    border-radius: 8px;        
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border: 1px solid #ddd;
+    margin-top: 20px;   
+}
+
+
+ h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+ p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
