@@ -1,0 +1,47 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* מאפשר לתמונות לרדת שורה */
+    width: 100%;     /* תופס את כל רוחב הדף */
+    justify-content: flex-start; /* מסדר את התמונות מתחילת השורה */
+}
+
+/* דסקטופ: 3 תמונות בשורה */
+.gallery-item {
+    width: calc(25% - 20px); /* שליש מסך פחות המרווחים */
+    margin: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* טאבלט: 2 תמונות בשורה */
+@media (max-width: 900px) {
+    .gallery-item {
+        width: calc(50% - 20px); /* חצי מסך פחות המרווחים */
+    }
+}
+
+/* נייד: תמונה אחת בשורה */
+@media (max-width: 600px) {
+    .gallery-item {
+        width: calc(100% - 20px); /* רוחב מלא פחות המרווחים */
+    }
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;     /* גובה אחיד לכל התמונות */
+    object-fit: cover; /* חותך את התמונה במקום למתוח אותה */
+    display: block;
+}
+
+.desc {
+    position: absolute;
+    bottom: 0;         /* צמוד לתחתית התמונה */
+    left: 0;           /* צמוד לשמאל */
+    width: 100%;       /* רקע לכל הרוחב לשיפור הקריאות */
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
