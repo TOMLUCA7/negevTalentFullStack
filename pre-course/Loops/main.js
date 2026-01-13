@@ -106,3 +106,16 @@
 // }
 
 // console.log(posts);
+
+// const dictionary = {
+//   A: ["Aardvark", "Abacus", "Actually", "Atomic"],
+//   B: ["Banana", "Bonkers", "Brain", "Bump"],
+//   C: ["Callous", "Chain", "Coil", "Czech"],
+// };
+
+// for (let index in dictionary) {
+//   console.log(`Words that begin with ${index}:`);
+//   for (const value of dictionary[index]) {
+//     console.log(` ${value},`);
+//   }
+// }
