@@ -92,3 +92,79 @@
 // } else {
 //   console.log("do you want to bay a tesla ? ");
 // }
+
+// let age = 20;
+// if (age > 18) {
+//   console.log("good");
+// } else {
+//   console.log("not good");
+// }
+
+// let grade = 25;
+
+// if (grade >= 90) {
+//   console.log("A");
+// } else if (grade >= 80) {
+//   console.log("B");
+// } else if (grade >= 70) {
+//   console.log("c");
+// } else if (grade >= 60) {
+//   console.log("D");
+// } else {
+//   console.log("F");
+// }
+
+// let temperature = 20;
+// let weather = "sunny";
+
+// if (weather === "sunny" && temperature > 24) {
+//   console.log("Go to the beach");
+// } else if (weather === "sunny" && temperature >= 15 && temperature <= 24) {
+//   console.log("Go for a walk");
+// } else if (weather === "sunny" && temperature < 15) {
+//   console.log("Stay inside and read");
+// } else if (weather === "rainy") {
+//   console.log("Watch a movie indoors");
+// } else if (weather === "cloudy" && temperature > 21) {
+//   console.log("Go hiking");
+// } else if (weather === "cloudy" && temperature <= 21) {
+//   console.log("Visit a museum");
+// }
+
+// let usernameLength = 6;
+// let passwordLength = 7;
+// let userAge = 15;
+
+// if (usernameLength >= 5 && passwordLength >= 8 && userAge >= 13) {
+//   console.log("ok you can create password");
+// } else {
+//   console.log("ok you can not create password");
+// }
+
+// let customerType = "premium";
+// let purchaseAmount = 150;
+// let dayOfWeek = 6; // 0 = Sunday, 1 = Monday, etc.
+
+// if (customerType == "VIP" ) {
+//     console.log(purchaseAmount - 0.2)
+
+// } else if (customerType === "premium") {
+//     discount = (dayOfWeek === 0 || dayOfWeek === 6) ? 0.15 : 0.10;
+// }
+// else if (customerType === "Regular") {
+//     if (purchaseAmount > 100) {
+//         purchaseAmount - 0.10
+//     } else if (purchaseAmount > 50) {
+//         purchaseAmount - 0.05
+//     } else {
+//         purchaseAmount - 0
+//     }
+// }
+
+// let year = 2000;
+
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   console.log(`${year} = leap`);
+// } else {
+//   console.log(`${year} = not leap`);
+// }
