@@ -4,13 +4,31 @@ class UniqueArray {
     this.items = [];
     this.itemSet = new Set();
   }
+  // exercise 1
+  // exists = (item) => this.itemSet.has(item);
 
-  exists = (item) => this.itemSet.has(item);
+  // exercise 2
+  exists = (item) => {
+    for (let i = 0; i < this.items.length; i++) {
+      if (JSON.stringify(this.items[i]) === JSON.stringify(item)) {
+        return true;
+      }
+    }
+    return false;
+  };
 
+  // exercise 1
+  //   add = (item) => {
+  //     if (!this.exists(item)) {
+  //       this.items.push(item);
+  //       this.itemSet.add(item);
+  //     }
+  //   };
+
+  // exercise 2
   add = (item) => {
     if (!this.exists(item)) {
       this.items.push(item);
-      this.itemSet.add(item);
     }
   };
 
