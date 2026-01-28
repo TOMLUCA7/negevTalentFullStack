@@ -43,3 +43,43 @@ const renderBookByTitle = (queryType, queryValue) => {
       console.log(error);
     });
 };
+
+// 3
+const returnAllBooks = (queryType, queryValue) => {
+  axios
+    .get(Book_api + queryType + ":" + queryValue)
+    .then((response) => {
+      console.log(response.data.items);
+      const book = document.getElementById("allBooks");
+      for (let i = 0; i < response.data.items.length; i++) {
+        book.textContent += `${response.data.items[i].volumeInfo.title} || `;
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
+
+// 4
+const GIPHY_API = "pjgJMzGZ8CVGVwenhxWQZ7rj4mG1sUPE";
+const GIPHY_API_URL =
+  "https://api.giphy.com/v1/gifs/search?api_key=" + GIPHY_API + "&q=";
+
+const renderGif = (input) => {
+  axios
+    .get(GIPHY_API_URL + input)
+    .then((response) => {
+      console.log(response.data);
+      if (response.data.data && response.data.data.length > 0) {
+        const gif = document.getElementById("gif");
+        gif.src = response.data.data[0].images.original.url;
+      } else {
+        console.log("No GIF found");
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
+
+// https://api.giphy.com/v1/gifs/search?api_key=pjgJMzGZ8CVGVwenhxWQZ7rj4mG1sUPE&q=
