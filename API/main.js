@@ -61,9 +61,10 @@ const returnAllBooks = (queryType, queryValue) => {
 };
 
 // 4
-const GIPHY_API = "pjgJMzGZ8CVGVwenhxWQZ7rj4mG1sUPE";
 const GIPHY_API_URL =
-  "https://api.giphy.com/v1/gifs/search?api_key=" + GIPHY_API + "&q=";
+  "https://api.giphy.com/v1/gifs/search?api_key=" +
+  process.env.GIPHY_API +
+  "&q=";
 
 const renderGif = (input) => {
   axios
